@@ -1,0 +1,67 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+    /* colors */
+
+    --primary:#a8c7ff ;
+    --onprimary:#002f67 ;
+    --bg:#1a1b1f ;
+    --onbg:#e3e2e6 ;
+    --surface:#1a1b1f ;
+    --onsurface:#e3e2e6 ;
+    --tertiary:#ddbce1;
+    --ontertiary:#3f2844;
+    --neutral99:#f2f0f4;
+    --neutral50:#77777a;
+
+    /* shadow */
+
+    --shadow1dp:0px 0px 2px 0px #00000024 , 0px 2px 2px 0px #0000001f , 0px 1px 3px 0px  #00000033 ; 
+    --shadow8dp:0px 8px 10px 1px #00000024 , 0px 3px 14px 3px #0000001f , 0px 4px 15px 0px  #00000033 ; 
+    --shadow24dp:0px 24px 38px 3px #00000024 , 0px 9px 46px 8px #0000001f , 0px 11px 15px 0px  #00000033 ; 
+
+    /* padding  */
+
+    --largscale:128px;
+    --mediumscale:64px;
+    --smallscale:16px;
+
+    /* typography  */
+
+ --display2:57px/64px "adamina" ; 
+ --display3:45px/52px "adamina" ; 
+    --letterDisplay2:-0.25px ;
+    --headline1:36px/44px "adamina" ; 
+    --headline2:32px/40px "adamina" ; 
+    --headline3:28px/37px "adamina" ; 
+    --headline4:24px/32px "adamina" ; 
+    --headline5:22px/28px "adamina" ; 
+    --headline6:18px/24px "adamina" ; 
+    --headline7:14px/24px "adamina" ; 
+    --headline8:12px/24px "adamina" ; 
+    --caption:12px/16px "adamina" ; 
+    --subhead1:  16px/24px "worksense" ; 
+    --subhead2:  14px/20px "worksense" ; 
+    --subhead3:  12px/20px "worksense" ; 
+    --button:  14px/20px "worksense" ; 
+    --labelsmall:  16px/24px "worksense" ;
+    --body1:  16px/24px "worksense" ; 
+    --body2:  12px/20px "worksense" ; 
+    --letterbody1: 0.5px ; 
+}
+
+@font-face {
+    font-family: "adamina";
+    src: url("../assest/font/Adamina-Regular.ttf");
+}
+
+@font-face {
+    font-family: "worksense";
+    src: url("../assest/font/work-sans.regular.ttf");
+}
+
