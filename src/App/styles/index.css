@@ -1,7 +1,7 @@
 @import "./styleLib.css";
 @import "./_button.css";
-
-
+@import "./loading.css";
+@import "./error.css" ;
 
 
 
@@ -24,8 +24,8 @@
     
     width: 100%;
     box-shadow: var(--shadow24dp);
-    /* position: fixed;
-    top: 0; */
+    position: relative;
+
 
 }
 
@@ -38,6 +38,7 @@
     background-color: var(--primary);
     padding: 0.5rem var(--largscale);
     color: var(--onprimary);
+
 }
 
 #header-logo{
@@ -82,6 +83,14 @@ padding: 0.3rem 0rem;
     width: 100%;
     padding: 1.6rem var(--largscale) 0.5rem var(--largscale) ;
     background-color: var(--bg);
+
+}
+
+.header-top{
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    
 }
 
 .header-btn{
@@ -94,6 +103,10 @@ padding: 0.3rem 0rem;
 
 .header-btn:first-child{
     padding-left: 0;
+    
+}
+
+.active-btn{
     color: var(--onbg); 
 }
 
