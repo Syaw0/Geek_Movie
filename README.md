@@ -1,4 +1,3 @@
-# Simple-React-TodoList
 # GEEK MOVIE
 
 </br>
